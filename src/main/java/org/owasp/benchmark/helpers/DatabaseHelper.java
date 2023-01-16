@@ -128,7 +128,6 @@ public class DatabaseHelper {
                 System.out.println("Problem with database init.");
             }
         }
-
         return stmt;
     }
 
