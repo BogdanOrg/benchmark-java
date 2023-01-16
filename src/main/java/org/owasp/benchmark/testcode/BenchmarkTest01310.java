@@ -29,6 +29,10 @@ public class BenchmarkTest01310 extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
 
+    public void adss() {
+        String t = "sdf";
+    }
+
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
