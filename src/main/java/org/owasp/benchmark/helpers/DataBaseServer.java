@@ -34,8 +34,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DataBaseServer {
-    
-    
+        
     @RequestMapping(value = "/resetdb", method = RequestMethod.GET)
     public ResponseEntity<List<XMLMessage>> getOtherOrder(
             @RequestBody Person model, HttpServletRequest request, HttpServletResponse response)
