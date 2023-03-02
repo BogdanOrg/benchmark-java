@@ -33,6 +33,7 @@ import org.owasp.benchmark.service.pojo.XMLMessage;
 import org.owasp.esapi.ESAPI;
 
 public class DatabaseHelper {
+
     private static Statement stmt;
     private static Connection conn;
     public static org.springframework.jdbc.core.JdbcTemplate JDBCtemplate;
