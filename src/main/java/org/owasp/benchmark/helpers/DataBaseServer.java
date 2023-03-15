@@ -35,6 +35,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DataBaseServer {
         
+        
     @RequestMapping(value = "/resetdb", method = RequestMethod.GET)
     public ResponseEntity<List<XMLMessage>> getOtherOrder(
             @RequestBody Person model, HttpServletRequest request, HttpServletResponse response)
@@ -75,6 +76,7 @@ public class DataBaseServer {
         return new ResponseEntity<List<XMLMessage>>(resp, HttpStatus.OK);
     }
 
+        
     public static void main(String[] args) {
         // This empty main() method is required to be able to start the Database. Otherwise you get
         // the error:
